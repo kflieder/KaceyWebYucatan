@@ -1,0 +1,125 @@
+﻿/* Default styles for all screens */
+* {
+  box-sizing: border-box;
+  font-family: 'acme';
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #8360c3, #2ebf91);
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 5vh ;
+}
+
+p {
+  font-size: 4vh;
+}
+
+#nav-btns {
+  font-size: 3vh;
+}
+
+#nav-btns ul {
+  list-style: none;
+  
+  display: flex;
+  padding: 0;
+}
+
+#nav-btns ul li a {
+  text-decoration: none;
+  padding: 2vw;
+  color: white;
+}
+
+#whats-app-img {
+  width: 15vw;
+  min-width: 180px;
+}
+
+#content {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 5vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5vh;
+  }
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);;
+  padding: 2vh 2vw;
+  border: solid white;
+  border-radius: 10px;
+  margin: 5vh 0;
+}
+
+#photoCard {
+  max-width: 60vw;
+  text-align: center;
+}
+
+.photos {
+  border: solid black;
+  width: 80vw;
+  margin: 2vw;
+  padding: 2vw;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#HowItWorks {
+  max-width: 70vw;
+}
+
+#howItWorks-conainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 4vw;
+}
+
+ul {
+  list-style: none;
+  font-size: 3vh;
+}
+
+
+
+
+
+
+
